@@ -1,0 +1,281 @@
+body {
+	font-family: "Inter", sans-serif;
+	height: 100%;
+	background-color: hsl(230, 17%, 14%);
+}
+
+header {
+	position: relative;
+	height: 200px;
+	padding-top: 30px;
+	background-color: hsl(232, 19%, 15%);
+}
+
+header p {
+	color: hsl(228, 34%, 66%);
+	font-weight: bold;
+	margin: -40px 0 0 36px;
+}
+
+h1,
+h2 {
+	color: hsl(0, 0%, 100%);
+	font-weight: 700;
+}
+
+h2 {
+	margin: 40px 0 60px 40px;
+}
+
+.border-color-facebook {
+	position: absolute;
+	left: 36px;
+	z-index: 0;
+	background-color: hsl(195, 100%, 50%);
+	border-radius: 10px;
+	height: 40px;
+	width: 300px;
+}
+
+.border-color-twitter {
+	position: absolute;
+	left: 392px;
+	z-index: 0;
+	background-color: hsl(203, 89%, 53%);
+	border-radius: 10px;
+	height: 40px;
+	width: 300px;
+}
+
+.border-color-instagram {
+	position: absolute;
+	right: 392px;
+	z-index: 0;
+	background-image: linear-gradient(
+		to right,
+		hsl(37, 97%, 70%),
+		hsl(329, 70%, 58%)
+	);
+	border-radius: 10px;
+	height: 40px;
+	width: 300px;
+}
+
+.border-color-youtube {
+	position: absolute;
+	right: 36px;
+	z-index: 0;
+	background-color: hsl(348, 97%, 39%);
+	border-radius: 10px;
+	height: 40px;
+	width: 300px;
+}
+
+.button {
+	position: absolute;
+	border: none;
+	border-radius: 25px;
+	background-image: linear-gradient(
+		to left,
+		hsl(210, 78%, 56%),
+		hsl(146, 68%, 55%)
+	);
+	height: 28px;
+	width: 48px;
+	right: 30px;
+	top: 71px;
+}
+
+.cards {
+	display: flex;
+	margin-top: -30px;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.card-header {
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+	margin-bottom: -70px;
+}
+
+.card-header img {
+	margin-top: 10px;
+	height: 30px;
+	width: 30px;
+	padding-right: 10px;
+}
+
+.card-footer {
+	display: flex;
+	justify-content: center;
+}
+
+.circle {
+	position: absolute;
+	background-color: hsl(232, 19%, 15%);
+	border-radius: 50px;
+	height: 24px;
+	width: 22px;
+	top: 2px;
+	right: 24px;
+	display: inline;
+}
+
+.facebook {
+	border-top-color: hsl(195, 100%, 50%);
+}
+
+.first-row {
+	display: flex;
+	position: relative;
+}
+
+.first-row img {
+	font-size: 2em;
+	position: absolute;
+	right: 30px;
+	top: 18px;
+}
+
+.first-row p {
+	color: hsl(228, 34%, 66%);
+	font-size: 1em;
+	font-weight: bold;
+	padding-left: 30px;
+}
+
+.instagram {
+	border-top-color: linear-gradient(
+		hsl(37, 97%, 70%),
+		hsl(329, 70%, 58%)
+	);
+}
+
+.lightCircle {
+	position: absolute;
+	background-color: hsl(0, 0%, 100%);
+	border-radius: 50px;
+	height: 24px;
+	width: 22px;
+	top: 2px;
+	right: 4px;
+	display: none;
+}
+
+.mini-arrow {
+	height: 10px;
+	width: 10px;
+}
+
+.number {
+	color: hsl(0, 0%, 100%);
+	font-size: 4.5em;
+	font-weight: 700;
+}
+
+.second-row {
+	display: flex;
+	position: relative;
+}
+
+.second-row p:nth-child(1) {
+	color: hsl(0, 0%, 100%);
+	padding-left: 30px;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.second-row p:nth-child(2) {
+	color: hsl(163, 72%, 41%);
+	font-weight: bold;
+	padding-left: 10px;
+	position: absolute;
+	right: 30px;
+	top: 30px;
+}
+
+.small-card {
+	background-color: hsl(228, 28%, 20%);
+	border-radius: 10px;
+	height: 140px;
+	width: 300px;
+	margin-top: 30px;
+}
+
+.small-card:nth-child(2) p:nth-child(2) {
+	color: hsl(356, 69%, 56%);
+}
+
+.small-card:nth-child(7) p:nth-child(2) {
+	color: hsl(356, 69%, 56%);
+}
+
+.small-card:nth-child(8) p:nth-child(2) {
+	color: hsl(356, 69%, 56%);
+}
+
+.small-cards {
+	position: relative;
+	top: 350px;
+}
+
+.social-card {
+	background-color: hsl(228, 28%, 20%);
+	border-radius: 0 0 10px 10px;
+	height: 270px;
+	width: 300px;
+	position: relative;
+	text-align: center;
+	margin-top: -14px;
+}
+
+.social-card p:nth-child(3) {
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	top: 160px;
+	color: hsl(228, 34%, 66%);
+	font-size: 1.5em;
+	font-weight: 400;
+}
+
+span {
+	color: hsl(0, 0%, 100%);
+	position: absolute;
+	right: 90px;
+	top: 76px;
+	font-weight: 700;
+}
+
+.today {
+	color: hsl(163, 72%, 41%);
+	font-weight: bold;
+}
+
+.triangle {
+	position: relative;
+	top: 24px;
+	height: 5px;
+	width: 10px;
+	padding-right: 4px;
+}
+
+.twitter {
+	border-top-color: hsl(203, 89%, 53%);
+}
+
+.username {
+	color: hsl(228, 34%, 66%);
+	font-weight: bold;
+}
+
+//cards
+.youtube {
+	border-top-color: hsl(348, 97%, 39%);
+}
+
+.youtube .card-footer p {
+	color: hsl(356, 69%, 56%);
+}

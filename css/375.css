@@ -1,0 +1,110 @@
+.button {
+	position: relative;
+	top: -10px;
+	right: -285px;
+}
+
+.border-color-facebook {
+	all: initial;
+	align-self: center;
+	font-family: "inter", sans-serif;
+	background-color: hsl(195, 100%, 50%);
+	border-radius: 10px;
+	height: 50px;
+}
+
+.border-color-twitter {
+	all: initial;
+	align-self: center;
+	font-family: "inter", sans-serif;
+	background-color: hsl(203, 89%, 53%);
+	border-radius: 10px;
+	margin-top: 196px;
+	height: 222px;
+}
+
+.border-color-instagram {
+	all: initial;
+	align-self: center;
+	font-family: "inter", sans-serif;
+	background-image: linear-gradient(
+		to right,
+		hsl(37, 97%, 70%),
+		hsl(329, 70%, 58%)
+	);
+	border-radius: 10px;
+	margin-top: 20px;
+	height: 222px;
+}
+
+.border-color-youtube {
+	all: initial;
+	align-self: center;
+	font-family: "inter", sans-serif;
+	background-color: hsl(348, 97%, 39%);
+	border-radius: 10px;
+	margin-top: 20px;
+	height: 222px;
+}
+
+.card-footer {
+	margin-top: -44px;
+}
+
+.card-header {
+	margin-bottom: -72px;
+}
+
+.circle {
+	left: 2px;
+}
+
+.facebook {
+	height: 100px;
+}
+.facebook .card-footer p {
+	color: white;
+}
+
+.full-size {
+	all: initial;
+	display: flex;
+	flex-direction: column;
+}
+
+.lightCircle {
+	position: absolute;
+	top: 2px;
+	left: 21px;
+	right: 2px;
+}
+
+.social-card {
+	height: 220px;
+}
+
+.small-cards {
+	top: 8px;
+}
+
+.small-cards h2 {
+	margin-bottom: 28px;
+}
+
+.social-card p:nth-child(3) {
+	font-size: 1em;
+	font-weight: 200 !important;
+	letter-spacing: 6px;
+	margin-top: -24px;
+}
+
+.username {
+	color: hsl(228, 34%, 66%);
+	font-weight: bold;
+}
+
+span {
+	position: relative;
+	left: 38px;
+	top: 14px;
+}
